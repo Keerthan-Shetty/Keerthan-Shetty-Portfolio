@@ -1,0 +1,86 @@
+.academic{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f8f5f5;
+}
+.list{
+    margin: 40px;
+}
+.list p{
+    text-align: center;
+    border: 1px solid #AD8BD0;
+    width: 100%;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 2rem;
+    border-radius: 50px;
+    background-color: #AD8BD0;
+    color: #fff;
+    transition:   0.8s ease-in;
+}
+.tab-content{
+    background: #fff;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0px 0px 16px silver;
+}
+.list .active-date{
+    border: none;
+    color: #AD8BD0;
+    background-color: #fff;
+    box-shadow: 0px 0px 16px silver;
+}
+.content{
+    display: none;
+} 
+.show-content{
+    display: block;
+    width: 90%;
+}
+.tab-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.tab-content h4{
+    font-size: 2rem;
+    color: silver;
+}
+td{
+    font-size: 1.3rem;
+    color: #000;
+}
+td span{
+    font-weight: 800;
+    color: #AD8BD0;
+}
+td:not(:first-child){
+    padding-left: 15px;
+}
+@media (max-width:1023px){
+   
+    .list p{
+        font-size: 1.2rem;
+    }
+    .tab-content h4{
+        font-size: 1.6rem;
+    }
+    td{
+        font-size: 1rem;
+    }
+}
+@media (max-width:726px){
+    .tab-content{
+        overflow: scroll;
+    }
+    .list p{
+        font-size: 1.2rem;
+    }
+    .tab-content h4{
+        font-size: 1rem;
+    }
+    td{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,38 @@
+.skills{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.skill1{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 16px silver;
+    border-radius: 10px;
+}
+.skill2{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 16px silver;
+    border-radius: 10px;
+    height: 100%;
+}
+@media (max-width:1023px){
+    .skill2{
+        margin-top: 20px;
+    }
+}
+.length-1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 8px solid silver;
+    border-radius: 50px;
+}
+.s1 .progress-bar{
+    border-radius: 50px 0 0 50px;
+    background-color: #AD8BD0;
+    color: #fff;
+}
+.s1 span.s1-1{
+    font-weight: 600;
+    color: #AD8BD0;
+    font-size: 2rem;
+}

@@ -1,0 +1,93 @@
+.project{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.poject-category{
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(238, 130, 238, 0.144);
+    box-shadow: inset 0px 0px 15px rgb(218, 215, 215);
+    gap: 20px;
+}
+@media (max-width:1023px) {
+    .poject-category{
+        flex-direction: column;
+    }
+}
+.project-img{
+    margin: 20px;
+    height: 300px;
+    overflow-y: scroll;
+    border-radius: 20px;
+}
+.project-img:hover{
+    box-shadow: 0px 0px 15px rgb(114, 112, 112);
+}
+.project-img img{
+    object-fit: cover;
+    width: 100%;
+}
+.project-content {
+    margin: 20px;
+}
+.project-content h4{
+    color: #AD8BD0;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+.dev p{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.link p{
+    margin-top: 20px;
+    animation: visit 0.5s ease-in-out infinite;
+}
+.link p a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.8rem;
+}
+.link p a:hover{
+    color: silver;
+}
+@keyframes visit {
+    to{
+        transform: scaleY(1.2);
+    }
+}
+.react{
+    background-color: rgba(0, 0, 255, 0.103);
+    color: blue;
+}
+.css, .bootstrap, .Javascript{
+    margin-left: 10px;
+}
+.css{
+    background-color: rgba(0, 128, 0, 0.139);
+    color: green;
+
+}
+.Html{
+    background-color: rgba(255, 0, 0, 0.167);
+    color: red;
+}
+.bootstrap{
+    background-color: rgba(76, 0, 130, 0.192);
+    color: indigo;
+
+}
+.Javascript{
+    background-color:rgba(255, 166, 0, 0.221);
+    color: orange;
+
+}
+@media (max-width:767px){
+    .project Row{
+        padding: 30px;
+    }
+    .dev{
+        flex-wrap: wrap;
+    }
+}
