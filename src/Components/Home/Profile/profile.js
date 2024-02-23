@@ -1,6 +1,6 @@
 import React from 'react'
 import './profile.css'
-import file from '../../../Resume/Keerthan-shetty-resume.pdf'
+import file from '../../../Resume/Keerthan_shetty-resume.pdf'
 import photo from '../../../assets/profile.png'
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
@@ -36,7 +36,7 @@ const Profile = () => {
                         <div className='two-button'>
                           <Row>
                           <div className='col-lg-6 col-md-12 col-sm-12'>
-                            <button className='button1'><a href={file} download='Keerthan.shetty-resume.pdf'><i class="fa-solid fa-download"></i>  Resume</a></button>
+                            <button className='button1'><a href={file} download='Keerthan_shetty-resume.pdf'><i class="fa-solid fa-download"></i>  Resume</a></button>
                             </div>
                             <div className='col-lg-6 col-md-12 col-sm-12'>
                             <button className='button2'><a href='tel:8680960260'>Hire Me</a> </button>
