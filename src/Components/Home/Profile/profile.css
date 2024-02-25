@@ -51,6 +51,9 @@
     .profile .row{
         flex-direction: column-reverse;
     }
+    .profile .row-z{
+        flex-direction: row-reverse;
+    }
 }
 .social-icon ul{
     display: flex;
@@ -102,7 +105,6 @@
     color: #fff;
     text-decoration: none;
 }
-
 .button1:hover, .button2:hover{
     transform: translateY(-8px);
 }

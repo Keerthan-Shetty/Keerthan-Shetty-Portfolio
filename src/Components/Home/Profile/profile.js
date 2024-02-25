@@ -34,12 +34,12 @@ const Profile = () => {
                         </div>
                         <br/>
                         <div className='two-button'>
-                          <Row>
+                          <Row className='row-z'>
                           <div className='col-lg-6 col-md-12 col-sm-12'>
                             <button className='button1'><a href={file} download='Keerthan_shetty-resume.pdf'><i class="fa-solid fa-download"></i>  Resume</a></button>
                             </div>
                             <div className='col-lg-6 col-md-12 col-sm-12'>
-                            <button className='button2'><a href='tel:8680960260'>Hire Me</a> </button>
+                            <button className='button2'><a href='tel:8680960260'><i class="fa-solid fa-phone"></i> Hire Me</a> </button>
                             </div>
                             </Row>
                         </div>
