@@ -70,12 +70,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      // Form submission logic
+      
       console.log('Form submitted:', formData);
       setIsSubmitted(true);
       setSubmittedUserName(formData.userName);
       // Send email
       sendEmail();
+      
       // Reset form
       setFormData({
         userName: '',

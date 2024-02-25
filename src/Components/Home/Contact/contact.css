@@ -20,8 +20,8 @@ form{
 }
 .success-message{
     position: absolute;
-    top: 30%;
-    left: 80%;
+    top: 50%;
+    left: 30%;
     z-index: 19;
     background-color: #0fff4fd4;;
     padding: 10px 20px;

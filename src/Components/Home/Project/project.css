@@ -85,9 +85,6 @@
 
 }
 @media (max-width:767px){
-    .project Row{
-        padding: 30px;
-    }
     .dev{
         flex-wrap: wrap;
     }

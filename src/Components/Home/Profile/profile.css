@@ -36,7 +36,7 @@
     }
     .profile-photo{
         width: 100%;  
-        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 @media (min-width:768px) and (max-width:1023px){
@@ -47,6 +47,9 @@
 @media (max-width:767px){
     .two-button .button1{
         margin-bottom: 20px;
+    }
+    .profile .row{
+        flex-direction: column-reverse;
     }
 }
 .social-icon ul{

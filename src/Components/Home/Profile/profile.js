@@ -11,8 +11,8 @@ const Profile = () => {
     <div>
       <div className='profile' id='profile'>
         <Container >
-            <Row className='d-flex justify-content-center align-items-center'>
-                <div className='col-lg-6 col-md-8 col-sm-12'>
+            <Row className='row d-flex justify-content-center align-items-center'>
+                <div className='col-lg-6 col-md-6 col-sm-12'>
                     <div className='profile-content'>
                         <h3>Hello, I'm <span style={{color:'#AD8BD0',fontWeight: 'bold'}}>Keerthan Shetty</span></h3>
                         <br/>
@@ -45,7 +45,7 @@ const Profile = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-6 col-md-4 col-sm-12'>
+                <div className='col-lg-6 col-md-6 col-sm-12'>
                   <div className='profile-photo'>
                   <img src={photo} alt='profile' />
                   </div>
