@@ -1,7 +1,7 @@
 import React from 'react'
 import './profile.css'
 import file from '../../../Resume/Keerthan_shetty-resume.pdf'
-import photo from '../../../assets/profile.png'
+import photo from '../../../assets/IMG_20220703_101455_polarr_1.png'
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
 import Typical from 'react-typical'
@@ -17,12 +17,12 @@ const Profile = () => {
                         <h3>Hello, I'm <span style={{color:'#AD8BD0',fontWeight: 'bold'}}>Keerthan Shetty</span></h3>
                         <br/>
                         <div className='typer'>
-                            <Typical 
+                            <Typical className='typer-type'
                               steps={["Frontend Developer", 3000 , "Web Developer", 3000, "Automobile Engineer",3000]} 
-                                 loop={Infinity} wrapper='h1' />
+                                 loop={Infinity} wrapper='h3' />
                         </div>
                         <br/>
-                        <h6 style={{color:'silver'}}>I am Skilled and Passionate About Designing(Web Development) and a Vehicle Enthusiast too.</h6>
+                        <h6 style={{color:'#000',textAlign:'justify'}}>I am Skilled and Passionate About Designing(Web Development) and a Vehicle Enthusiast too. To enhance my professional skills, capabilities and knowledge in an organization which recognizes the value of hard work and trusts me with responsibilities and challenges.</h6>
                         <br/>
                         <div className='social-icon'>
                             <ul>

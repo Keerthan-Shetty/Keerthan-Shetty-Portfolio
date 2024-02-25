@@ -13,7 +13,8 @@
     cursor: pointer;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
     border-radius: 50px;
     background-color: #AD8BD0;
     color: #fff;
@@ -23,7 +24,7 @@
     background: #fff;
     border-radius: 10px;
     height: 300px;
-    box-shadow: 0px 0px 16px silver;
+    box-shadow: 0px 0px 8px silver;
 }
 .list .active-date{
     border: none;
@@ -48,7 +49,7 @@
     color: silver;
 }
 td{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: #000;
 }
 td span{
@@ -59,7 +60,6 @@ td:not(:first-child){
     padding-left: 15px;
 }
 @media (max-width:1023px){
-   
     .list p{
         font-size: 1.2rem;
     }

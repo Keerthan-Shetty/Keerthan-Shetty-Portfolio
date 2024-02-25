@@ -13,6 +13,7 @@ div.card{
 .card{
     transform-style: preserve-3d;
     transition: transform 0.8s;
+    cursor: grab;
 }
 .card-container:hover .card{
     transform: rotateY(180deg);
@@ -32,10 +33,21 @@ div.card{
 .back-card{
     padding-top: 10px;
     box-shadow:  inset 0px 0px 18px #cec5d6;
-    background-color: #AD8BD0;
     color: #fff;
     transform: rotateY(180deg);
 } 
+.back1{
+    background-image: linear-gradient(#ae8bd0b2,#ae8bd0bf),url('../../../assets/keyskill.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back2{
+    background-image: linear-gradient(#ae8bd09b,#ae8bd09b),url('../../../assets/certificate.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .rightside{
     display:block;
     float: inline-end;
@@ -54,7 +66,8 @@ div.card{
         padding-top: 30px;
     }
 }
-.about-content{
+.about-content h5{
     text-align: justify;
-    color: silver;
+    color: #AD8BD0;
+    font-size: 18px;
 }

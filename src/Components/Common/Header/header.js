@@ -16,10 +16,10 @@ const Header = () => {
               <ul className={navList ? "small" : "flex"}>
                 <li ><Link activeClass='active' to='profile' spy={true} smooth={true} offset={-100} duration={300} >Home</Link></li>
                 <li><Link activeClass='active' to='about' spy={true} smooth={true} offset={-90} duration={300}>About</Link></li>
-                <li><Link activeClass='active' to='academic' spy={true} smooth={true} offset={-100} duration={300}>Academics</Link></li>
+                <li><Link activeClass='active' to='academic' spy={true} smooth={true} offset={-90} duration={300}>Academics</Link></li>
                 <li><Link activeClass='active' to='skills' spy={true} smooth={true} offset={-90} duration={300}>Skills</Link></li>
-                <li><Link activeClass='active' to='project' spy={true} smooth={true} offset={-100} duration={300}>Projects</Link></li>
-                <li><Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={300}>Contact</Link></li>
+                <li><Link activeClass='active' to='project' spy={true} smooth={true} offset={-90} duration={300}>Projects</Link></li>
+                <li><Link activeClass='active' to='contact' spy={true} smooth={true} offset={-90} duration={300}>Contact</Link></li>
               </ul>
             </div>
             <div className='toggle'>

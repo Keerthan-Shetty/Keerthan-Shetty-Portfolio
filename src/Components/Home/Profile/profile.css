@@ -1,7 +1,7 @@
 .profile{
     background-color: #f8f5f5;
-    padding-top: 10rem;
-    padding-bottom: 100px;
+    padding-top: 8rem;
+    padding-bottom: 60px;
 }
 .profile-photo{
     display: flex;
@@ -9,8 +9,16 @@
     align-items: center;
 }
 .profile-photo img{
-    width: 250px;
+    width: 60%;
     height: max-content;
+}
+.profile-content h3{
+    font-size: 26px;
+}
+.typer .typer-type{
+    font-size: 26px;
+    color: #AD8BD0;
+    font-weight: 600;
 }
 .profile-photo { 
     width: 100%;
@@ -47,23 +55,25 @@
     padding-left: 0;
     margin-right: 2rem;
 }
-.social-icon ul li{
-    border: 1px solid #000;
+.social-icon ul li a{
+    border: 1px solid #fff;
     border-radius:30%;
     padding: 10px;
     margin-right: 2rem;
     font-size: 20px;
-    background-color: #000;
+    background-color: #fff;
     font-size: 1.5rem;
+    color: #AD8BD0;
 }
-.social-icon ul li a{
-    color: red;
-}
+/* .social-icon ul li a{
+    color: #AD8BD0;
+} */
 .social-icon ul li a:hover{
     color: #fff;
+    background-color: #AD8BD0;
+    border: 1px solid transparent;
 }
 .two-button button{
-    
     width: 100%;
     height: 50px;
     font-weight: 800;
@@ -71,19 +81,21 @@
     border: none;
     border-radius: 50px;
 }
-.button1{
-    background-color: rgb(18, 218, 18);
-    transition: 0.3s ease-in-out;
-}
-.button1 a{
-    color: #fff;
-    text-decoration: none;
-}
 .button2{
-    background-color: blue;
+    background-color: #fff;
     transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px rgba(192, 192, 192, 0.466);
 }
 .button2 a{
+    color: #AD8BD0;
+    text-decoration: none;
+}
+.button1{
+    background-color: #AD8BD0;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px rgba(192, 192, 192, 0.466);
+}
+.button1 a{
     color: #fff;
     text-decoration: none;
 }

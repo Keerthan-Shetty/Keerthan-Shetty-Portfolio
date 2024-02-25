@@ -2,6 +2,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #AD8BD0;
+    position: relative;
 }
 .cartoon img{
     width: 100%;
@@ -14,19 +15,18 @@ form{
     padding: 40px;
     border: none;
     border-radius: 10px;
-    box-shadow: inset 0px 0px 18px #000000c0;
-    position: relative;
+    box-shadow: inset 0px 0px 8px #0000005b;
+    /* position: relative; */
 }
-.success{
+.success-message{
     position: absolute;
-    top: 15%;
-    left: 50%;
+    top: 30%;
+    left: 80%;
     z-index: 19;
     background-color: #0fff4fd4;;
     padding: 10px 20px;
     color: #fff; 
     font-weight: 600;
-    display: hidden;
 }
 .inputbox input{
     width: 100%;

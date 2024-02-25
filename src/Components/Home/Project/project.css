@@ -7,7 +7,7 @@
     margin-bottom: 20px;
     border-radius: 10px;
     background-color: rgba(238, 130, 238, 0.144);
-    box-shadow: inset 0px 0px 15px rgb(218, 215, 215);
+    box-shadow: inset 0px 0px 8px rgb(218, 215, 215);
     gap: 20px;
 }
 @media (max-width:1023px) {
@@ -19,6 +19,7 @@
     margin: 20px;
     height: 300px;
     overflow-y: scroll;
+    cursor: pointer;
     border-radius: 20px;
 }
 .project-img:hover{
@@ -33,7 +34,7 @@
 }
 .project-content h4{
     color: #AD8BD0;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-bottom: 20px;
 }
 .dev p{

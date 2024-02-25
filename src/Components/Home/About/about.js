@@ -15,9 +15,9 @@ const About = () => {
                 <div className='card-container'>
                 <div className='card'>
                   <div className=' front-card d-flex justify-content-center align-items-center'>
-                    <h2>Key-Skill</h2>
+                    <h2>Key-Skills</h2>
                   </div>
-                  <div className=' back-card d-flex flex-column justify-content-center align-items-center'>
+                  <div className=' back-card back1 d-flex flex-column justify-content-center align-items-center'>
                     <p>Active Listener</p>
                     <p>Innovative Thinker</p>
                     <p>Time Management</p>
@@ -32,7 +32,7 @@ const About = () => {
                   <div className=' front-card d-flex justify-content-center align-items-center'>
                     <h2>Certification</h2>
                   </div>
-                  <div className=' back-card d-flex flex-column justify-content-center align-items-center'>
+                  <div className=' back-card back2 d-flex flex-column justify-content-center align-items-center'>
                     <p>Full-Stack Developer</p>
                     <p>AutoCAD</p>
                   </div>

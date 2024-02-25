@@ -1,11 +1,12 @@
 .skills{
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: rgb(252, 249, 249);
 }
-.skill1{
+/* .skill1{
     background-color: #fff;
     padding: 20px;
-    box-shadow: 0px 0px 16px silver;
+    box-shadow: 0px 0px 10px silver;
     border-radius: 10px;
 }
 .skill2{
@@ -23,7 +24,7 @@
 .length-1{
     margin-top: 10px;
     margin-bottom: 30px;
-    border: 8px solid silver;
+    border: 5px solid rgba(192, 192, 192, 0.402);
     border-radius: 50px;
 }
 .s1 .progress-bar{
@@ -34,5 +35,33 @@
 .s1 span.s1-1{
     font-weight: 600;
     color: #AD8BD0;
-    font-size: 2rem;
+    font-size: 1.5rem;
+} */
+.skill-icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.skill-icon p img{
+    width: 100px;
+    height: max-content;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.skill-icon p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px #AD8BD0;
+    background-color: #AD8BD0;
+    border-radius: 50%;
+    padding: 50px;
+    width: 200px;
+    height:max-content;
+    margin: 10px;
+}
+.skill-icon p img:hover{
+    transform: scale(1.3);
 }

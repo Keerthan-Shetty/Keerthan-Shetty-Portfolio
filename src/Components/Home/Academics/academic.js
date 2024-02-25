@@ -32,7 +32,7 @@ const Academic = () => {
                   <div className='tab-content'>
                     <div className={toggleState === 1 ? 'show-content' : 'content'}>
                       <h4>2018-2022</h4>
-                      <hr style={{color:'#AD8BD0',borderWidth:'5px'}} />
+                      <hr style={{color:'#AD8BD0',borderWidth:'5px',width:'20%'}} />
                       <div className='details'>
                         <table>
                           <tr>
@@ -65,7 +65,7 @@ const Academic = () => {
                     </div>
                     <div className={toggleState === 2 ? 'show-content' : 'content'}>
                       <h4>2016-2018</h4>
-                      <hr style={{color:'#AD8BD0',borderWidth:'5px'}} />
+                      <hr style={{color:'#AD8BD0',borderWidth:'5px',width:'20%'}} />
                       <div className='details'>
                         <table>
                           <tr>
@@ -86,7 +86,7 @@ const Academic = () => {
                          <tr>
                             <td><span>Percentage </span> </td>  
                             <td>:</td> 
-                            <td>78.3</td>
+                            <td>78.3 %</td>
                           </tr>
                           <tr>
                             <td><span>Year Of Passing</span> </td>  
@@ -98,7 +98,7 @@ const Academic = () => {
                     </div>
                     <div className={toggleState === 3 ? 'show-content' : 'content'}>
                       <h4>2015-2016</h4>
-                      <hr style={{color:'#AD8BD0',borderWidth:'5px'}} />
+                      <hr style={{color:'#AD8BD0',borderWidth:'5px',width:'20%'}} />
                       <div className='details'>
                         <table>
                           <tr>
@@ -114,7 +114,7 @@ const Academic = () => {
                          <tr>
                             <td><span>Percentage </span> </td>  
                             <td>:</td> 
-                            <td>87</td>
+                            <td>87 %</td>
                           </tr>
                           <tr>
                             <td><span>Year Of Passing</span> </td>  

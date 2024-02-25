@@ -7,4 +7,5 @@
 }
 .heading h5{
     color: silver;
+    text-transform: capitalize;
 }
