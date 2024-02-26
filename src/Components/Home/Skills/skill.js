@@ -6,6 +6,7 @@ import { Container } from 'react-bootstrap'
 import html from '../../../assets/html-5.png'
 import css from '../../../assets/css-3.png'
 import js from '../../../assets/js.png'
+import bootstrap from '../../../assets/bootstrap.png'
 import react from '../../../assets/react.png'
 import node from '../../../assets/nodejs.png'
 import express from '../../../assets/express.png'
@@ -79,6 +80,7 @@ const Skill = () => {
             <div className='skill-icon'>
               <p><img src={html} alt='html' /></p>
               <p><img src={css} alt='css' /></p>
+              <p><img src={bootstrap} alt='boot' /></p>
               <p><img src={js} alt='js' style={{borderRadius:'30%'}} /></p>
               <p><img src={react} alt='react' /></p>
               <p><img src={node} alt='nodejs' /></p>
