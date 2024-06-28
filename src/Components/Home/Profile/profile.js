@@ -1,7 +1,7 @@
 import React from 'react'
 import './profile.css'
 import file from '../../../Resume/Keerthan_shetty-resume.pdf'
-import photo from '../../../assets/IMG_20220703_101455_polarr_1.png'
+import photo from '../../../assets/profile.png'
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
 import Typical from 'react-typical'
