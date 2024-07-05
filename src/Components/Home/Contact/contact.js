@@ -112,7 +112,7 @@ const Contact = () => {
                                         <h2>Get In Touch</h2>
                                     </div><br /> 
                                     <div className="inputbox">
-                                        <input type="text" name="userName" id="userName" placeholder='USER-NAME' value={formData.userName} onChange={handleChange} />
+                                        <input type="text" name="userName" id="userName" placeholder='YOUR-NAME' value={formData.userName} onChange={handleChange} />
                                 
                                         {errors.userName && <span>{errors.userName}</span>}
                                     </div>
